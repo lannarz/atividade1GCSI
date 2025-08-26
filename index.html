@@ -22,6 +22,7 @@
   <p id="resultado"></p>
 
   <script>
+
     function somar() {
       // Lê os valores e converte para ponto flutuante
       let numero1 = parseFloat(document.getElementById("num1").value);
@@ -34,6 +35,15 @@
       document.getElementById("resultado").textContent = "A soma é: " + soma;
     }
   </script>
+
+
+
+  <h3>Digite: pato, gato ou cachorro</h3>
+  
+  <input type="text" id="animal" placeholder="Digite um animal">
+  <button onclick="mostrarImagem()">Mostrar</button>
+  
+  <div id="resultado"></div>
 
 
   
