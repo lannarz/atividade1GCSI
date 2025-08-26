@@ -1,0 +1,2 @@
+Erro: Valor inválido digitado pelo usuário.
+Erro: Arquivo não encontrado.
